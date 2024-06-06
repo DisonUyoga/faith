@@ -178,3 +178,6 @@ menus:
       title: Tags
       url: "/tags"
       weight: "30"
+module:
+  imports:
+    path: https://github.com/DisonUyoga/piko.git
