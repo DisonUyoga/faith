@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "hugo server --gc --disableFastRender --themesDir ../.. ",
     "dev:drafts": "hugo server --gc --disableFastRender --buildFuture --buildDrafts",
-    "build": "hugo --gc --cleanDestinationDir --minify",
+    "build": "hugo --gc --cleanDestinationDir --minify --themesDir ../..",
     "start": "hugo server --gc --disableFastRender --renderStaticToDisk --cleanDestinationDir",
     "start:production": "hugo server --gc --disableFastRender --renderStaticToDisk --cleanDestinationDir --environment production --minify",
     "npm-check": "npm-check -u"
